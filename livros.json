@@ -1,0 +1,34 @@
+[
+  {
+    "titulo": "O Alquimista",
+    "autor": "Paulo Coelho",
+    "genero": "Ficção",
+    "ano": "1988",
+    "avaliacao": 5
+  },
+  {
+    "titulo": "Dom Casmurro",
+    "autor": "Machado de Assis",
+    "genero": "Romance",
+    "ano": "1899"
+  },
+  {
+    "titulo": "A Moreninha",
+    "autor": "Joaquim Manuel de Macedo",
+    "genero": "Romance",
+    "ano": "1844",
+    "avaliacao": 5
+  },
+  {
+    "titulo": "Memórias Póstumas de Brás Cubas",
+    "autor": "Machado de Assis",
+    "genero": "Romance",
+    "ano": "1881"
+  },
+  {
+    "titulo": "Capitães da Areia",
+    "autor": "Jorge Amado",
+    "genero": "Romance",
+    "ano": "1937"
+  }
+]

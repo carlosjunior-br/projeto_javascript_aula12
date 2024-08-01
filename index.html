@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Livros Online</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Catálogo de Livros Online</h1>
+        
+        <div class="card mt-4">
+            <div class="card-body">
+                <h5 class="card-title">Adicionar Livro</h5>
+                <form id="form-adicionar">
+                    <input type="text" id="titulo" placeholder="Título" class="form-control mb-2" required>
+                    <input type="text" id="autor" placeholder="Autor" class="form-control mb-2" required>
+                    <input type="text" id="genero" placeholder="Gênero" class="form-control mb-2" required>
+                    <input type="number" id="ano" placeholder="Ano de Publicação" class="form-control mb-2" required>
+                    <button type="submit" class="btn btn-primary">Adicionar Livro</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="card mt-4">
+            <div class="card-body">
+                <h5 class="card-title">Buscar Livro</h5>
+                <input type="text" id="busca" placeholder="Buscar por título, autor ou gênero" class="form-control mb-2">
+                <button id="btn-buscar" class="btn btn-secondary">Buscar</button>
+            </div>
+        </div>
+
+        <div class="card mt-4">
+            <div class="card-body">
+                <h5 class="card-title">Classificar Livros</h5>
+                <select id="classificacao" class="form-control mb-2">
+                    <option value="titulo">Por Título</option>
+                    <option value="autor">Por Autor</option>
+                    <option value="ano">Por Ano</option>
+                </select>
+                <button id="btn-classificar" class="btn btn-warning">Classificar</button>
+            </div>
+        </div>
+        
+        <div class="card mt-4 bg-info">
+            <div class="card-body bg-info">
+                <h5 class="card-title">Listagem dos livros cadastrados</h5>
+                <div id="lista-livros" class="bg-info"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
